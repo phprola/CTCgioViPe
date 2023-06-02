@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Mac extends Model
 {
     use HasFactory;
+    protected $table = "mac";
+
+    protected $fillable = [
+        'idmac', 'nome', 'contador'
+    ];
 }
