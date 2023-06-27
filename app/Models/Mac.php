@@ -11,6 +11,6 @@ class Mac extends Model
     protected $table = "mac";
 
     protected $fillable = [
-        'idmac', 'nome', 'contador'
+        'idMac', 'nome', 'contador'
     ];
 }

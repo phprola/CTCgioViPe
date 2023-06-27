@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('macs', function (Blueprint $table) {
             $table->id();
+            $table->string('nome', 35);
+            $table->integer('contador', false, false);
             $table->timestamps();
         });
     }

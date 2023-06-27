@@ -11,6 +11,6 @@ class Leitura extends Model
     protected $table = "leitura";
 
     protected $fillable = [
-        'idleitura', 'DataLeitura', 'Hora Leitura', 'ValorSensor'
+        'idleitura', 'dataLeitura', 'horaLeitura', 'valorSensor'
     ];
 }
