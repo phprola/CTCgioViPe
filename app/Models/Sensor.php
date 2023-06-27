@@ -8,9 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Sensor extends Model
 {
     use HasFactory;
-    protected $table = "sensor";
+    protected $table = "Sensor";
 
     protected $fillable = [
-        'idSensor', 'nome', 'temperatura', 'contador'
+        'idSensor', 'Nome', 'Temperatura', 'Contador'
     ];
 }
